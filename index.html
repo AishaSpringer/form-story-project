@@ -48,8 +48,14 @@
              <br>
           <label for="quote">Motivational Quote: </label>
           <input id="quote" name="quote" type="text" required list="quote-choices">
-          
-
+          <datalist id="quote-choices">
+            <option value="winner gets ice cream!">Winner gets ice cream!</option>
+            <option value="quote 2">Quote 2</option>
+          </datalist>
+          <br>
+          <label for="message">Meaningful Message: </label>
+          <textarea id="message" name="message" required rows="8" cols="40"></textarea>
+          <br>
         <input type="submit" value="Form My Story!">
       </form>
     </section>
